@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+	margin: 0 auto;
+}
+
+.module {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; 
+}
+
+.module:last-child {    
+    margin-bottom: 0;
+}
+
+.module h2 {
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.module p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.module p:last-child {
+    margin-bottom: 0;
+}
+
+.content {
+    padding: 40px 0;
+}
+
+.parallax {
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.parallax h1 {
+    color: #F8F8FF;
+    font-family: sans-serif;
+	font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.parallax-1 {
+	background-image: url(birds.jpg);
+}
+
+.parallax-2 {
+	background-image: url(car.jpg);
+}
+
+.parallax-3 {
+	background-image: url(nature.jpg);
+}
+
+.parallax-4 {
+	background-image: url(girl.jpg);
+}
+
+@media all and (min-width: 600px) {
+  .module h2 {
+    font-size: 42px;
+  }
+  .parallax {
+    height: 400px;
+  }
+  .parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  .parallax {
+      height: 600px;
+  }
+  .parallax h1 {
+    font-size: 160px;
+  }
+}
