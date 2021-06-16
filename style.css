@@ -59,7 +59,7 @@ html, body {
 }
 
 .parallax-1 {
-	background-image: url(birds.jpg);
+	background-image: url(birds.JPG);
 }
 
 .parallax-2 {
@@ -71,7 +71,7 @@ html, body {
 }
 
 .parallax-4 {
-	background-image: url(flowers.jpg);
+	background-image: url(flowers.JPG);
 }
 
 @media all and (min-width: 600px) {
