@@ -71,7 +71,7 @@ html, body {
 }
 
 .parallax-4 {
-	background-image: url(girl.jpg);
+	background-image: url(flowers.jpg);
 }
 
 @media all and (min-width: 600px) {
